@@ -122,6 +122,13 @@ form{
     margin: 1% 0 1%;
 }
 
+#password-not-match{
+    color: red;
+    font-size: 0.6rem;
+    visibility: hidden;
+    margin: 0;
+}
+
 label{
     color:dimgray;
     font-size: .65rem;

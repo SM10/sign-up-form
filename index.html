@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="script.css">
+    <script src="javascript.js" defer></script>
     <title>The Odin Project-Sign Up Form</title>
 </head>
 <body>
@@ -30,11 +31,11 @@
                 <h2 id="lets-do-this">Let's do this!</h4>
                 <form id="first-name-form">
                     <label for="first-name">FIRST NAME</label>
-                    <input id="first-name" name="first-name">
+                    <input id="first-name" name="firstName">
                 </form>
                 <form id="last-name-form">
                     <label for="last-name">LAST NAME</label>
-                    <input id="last-name" name="last-name">
+                    <input id="last-name" name="lastName">
                 </form> 
                 <form id="email-form">
                     <label for="email">EMAIL</label>
@@ -42,15 +43,16 @@
                 </form>
                 <form id="phone-number-form">
                     <label for="phone-number">PHONE NUMBER</label>
-                    <input id="phone-number" name="phone-number" type="tel">
+                    <input id="phone-number" name="phoneNumber" type="tel">
                 </form>
                 <form id="password-form">
                     <label for="password">PASSWORD</label>
                     <input id="password" name="password" type="password">
+                    <div id="password-not-match">* Passwords do not match</div>
                 </form>
                 <form id="confirm-password-form">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input id="confirm-password" name="confirm-password" type="password">
+                    <input id="confirm-password" name="confirmPassword" type="password">
                 </form>
             </div>
         </div>
